@@ -1,0 +1,620 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#one{
+    display: flex;
+    justify-content: space-between;
+     padding-left: 50px;
+     padding-right: 160px;
+    width: 100%;
+    height: 80px;
+    background-color:rgb(7, 7, 7);
+}
+#b{
+   width: 40px;
+}
+#game{
+   position: absolute;
+   left: 308px;
+   margin-top: 60px;
+   
+   
+}
+#game h4{
+    letter-spacing: 2px;
+    color: white;
+}
+#c{
+    width: 40px;
+    margin-left: 140px;
+ }
+ #video h4{
+   
+    letter-spacing: 2px;  
+     color: white;
+ }
+ #d{
+    margin-top: 1px;
+    width: 45px;
+ }
+ #app h4{
+    letter-spacing: 2px;
+     color: white;
+ }
+ #video{
+    position: absolute;
+    left: 690px;
+    margin-top: 60px;
+    
+ }
+ #app{
+    position: absolute;
+    left: 1149px;
+    margin-top: 60px;
+    
+ }
+  #a{
+  
+     width: 100px;
+ }
+#as{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+#two{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+     width: 100%;
+    height: 90px;
+    background-color: rgb(241, 241, 241);
+}
+#-aa{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: rgb(199, 31, 157);
+   background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/738/showpage/adventure-time/in/showicon.png?w=90&h=90);
+   background-size: cover;
+   background-position: center;
+}
+#-bb{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: rgb(216, 66, 178);
+   background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/798/showpage/the-powerpuff-girls/in/showicon.png?w=90&h=90);
+   background-size: cover;
+   background-position: center;
+}
+#-cc{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    
+    background-color: rgb(185, 255, 21);
+   background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/2033/showpage/ok-ko%21-let%27s-be-heroes/in/showicon.png?w=90&h=90);
+   background-size: cover;
+   background-position: center;
+}
+#aa{
+    position: absolute;
+    border: 1px solid rgb(243, 240, 240);
+    width: 70px;
+    height: 100%;
+    background-color:rgb(248, 247, 247);
+}
+#bb{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: rgb(111, 185, 228);
+   background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/2016/showpage/ben-10/in/showicon.png?w=90&h=90);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+#cc{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/2102/bandbudh-aur-budbak/showpage/in/showicon_1-min-min.dd455f35.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(243, 247, 39);
+}
+#dd{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/1123/showpage/roll-no21/in/r21_1.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(231, 49, 119);
+}
+#ee{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/2076/toon-cup/showpage/in/tooncup2019showicon-2.67bac5d6.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(76, 79, 236);
+}
+#ff{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/869/showpage/oggy-and-the-cockroaches/in/oggy.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(231,49, 119);
+}
+#gg{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: rgb(76, 79, 236);
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/2087/dc-super-hero-girls/showpage/in/showicon.b96cb093.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+}
+#hh{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/2009/showpage/lamput/au/showicon.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(243, 247, 39);
+}
+#ii{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: rgb(231, 49, 119);
+    background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/1111/showpage/we-bare-bears/in/showicon.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+}
+#jj{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/746/showpage/the-amazing-world-of-gumball/in/showicon.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(76, 79, 236);
+}
+#kk{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/2050/showpage/craig-of-the-creek/in/showicon.png?w=90&h=90);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(227, 252, 9);
+}
+#-jj{
+   
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        margin-top: 10px;
+      background-image: url(https://cn.i.cdn.ti-platform.com/cnapac/content/848/showpage/teen-titans-go%21/in/showicon.png?w=90&h=90);
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 139, 173, 0.671);
+   
+}
+#ll{
+    position: relative;
+    position: absolut;
+    width: 70px;
+    height: 100%;
+    border: 1px solid rgb(243, 240, 240);
+    background-color:rgb(248, 247, 247);
+}
+#bb:hover{
+    transform: scale(1.35);
+    
+}
+#cc:hover{
+    transform: scale(1.35);
+}
+#dd:hover{
+    transform: scale(1.35);
+}
+#ee:hover{
+    transform: scale(1.35);
+}
+#ff:hover{
+    transform: scale(1.35);
+}
+#gg:hover{
+    transform: scale(1.35);
+}
+#hh:hover{
+    transform: scale(1.35);
+}
+#ii:hover{
+    transform: scale(1.35);
+}
+#jj:hover{
+    transform: scale(1.35);
+}
+#-jj:hover{
+    transform: scale(1.35);
+}
+#kk:hover{
+    transform: scale(1.35);
+}
+#-aa:hover{
+    transform: sccale(1.35);
+}
+#-bb:hover{
+    transform: scale(1.35);
+}
+#-cc:hover{
+    transform: scale(1.35);
+}
+#aaa{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 40px;
+   
+}
+#lll{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+ 
+ }
+ #zero{
+     width: 100%;
+     display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 33px;
+     margin-top: 33px;
+    
+ }
+ #three{
+     position: absolute;
+     position: absolute;
+     
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-right: 330px;
+    background-color: white;
+    opacity: .8;
+
+ }
+
+ #fore{
+    
+    width: 395px;
+    height: 210px;
+background-image: url(https://cn.i.cdn.ti-platform.com/content/1964/play-merry-merging-christmas-now/link/au/merrymergingchristmas-a1banner-1920x1080.03e4623b.png?imwidth=300);
+border-radius: 20px;
+}
+#fore:hover{
+    transform: scale(1.1);
+}
+    
+#five{
+    width: 450px;
+    height: 210px;
+background-image: url(https://cn.i.cdn.ti-platform.com/content/2044/download-cartoon-network-ludo/link/in/cn_ludo_1920x1080_oct.3415b5a4.jpg?imwidth=300);
+background-size: cover;
+background-position: center;
+    border-radius: 20px;
+}
+#five:hover{
+    transform: scale(1.1);
+}
+  
+#six{
+    width: 395px;
+    height: 210px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/1268/alien-rivals/game/au/alienrivals-ben10-a1banner.a311ef5b.jpg?imwidth=300);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+#six:hover{
+    transform: scale(1.1);
+}
+  
+#seven{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-left: 1270px;
+    background-color: white;
+    opacity: .8;
+}
+#three i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: .7;
+    font-size: 30px;
+}
+#seven i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    font-size: 30px;
+    opacity: .7;
+
+}
+#last{
+    position: relative;
+    width: 100%;
+    height: 200px;
+   
+}
+#last1 h5{
+  position: absolute;
+  left: 43%;
+  margin-top: 80px;
+  opacity: .9;
+  letter-spacing: 2px;
+}
+#last2{
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 330px;
+    background-image: url(https://tpc.googlesyndication.com/simgad/3760234623928208038);
+    background-size: cover;
+    background-position: center;
+}
+#rajan{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    background-color: rgb(13, 195, 250);
+}
+#rajan2{
+    position: absolute ;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 47px;
+    margin-left: 150px;
+
+   background-color: black;
+}
+#rajan2 img{
+    width: 40px;
+   margin-top: 15px;
+   margin-left: 15px;
+
+}
+#rj{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 250px;
+    font-size: 30px;
+}
+#rj0{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 180px;
+    width: 100%;
+    
+}
+#rj1{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-image: url(https://cn.i.cdn.ti-platform.com/content/2076/toon-cup-2020/game/in/a1banner-tooncup-1280x720.2c8bae80.jpg?imwidth=300);
+   border-radius: 20px;
+   background-size: cover;
+   background-position: center;
+}
+#rj2{
+    position: relative;
+    width: 310px;
+    height: 250px;
+   background-image: url(https://cn.i.cdn.ti-platform.com/content/2076/game/ultimate-table-tennis-tournament/in/4.0migration_cnmultiple_tabletennisultimatetournament_cover-min.png?imwidth=300);
+   border-radius: 20px;
+   background-size: cover;
+   background-position: center;
+}
+#rj3{
+    position: relative;
+    width: 310px;
+    height: 250px;
+  background-image: url(https://cn.i.cdn.ti-platform.com/content/738/game/finn-and-bones/in/4.0migration_adventuretime_finnandbones_cover-min.jpg?imwidth=300);
+   border-radius: 20px;
+   background-size: cover;
+   background-position: center;
+}
+#rj4{
+   position: relative;
+    width: 300px;
+    height: 250px;
+ background-image: url(https://cn.i.cdn.ti-platform.com/content/1258/game/rescue-of-titans/au/4.0migration_teentitansgo_rescueoftitans_cover.png?imwidth=300);
+   border-radius: 20px;
+   background-size: cover;
+   background-position: center;
+}
+#rj11{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-top: 190px;
+    padding-left: 15px;
+    padding-top: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+#rj22{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-top: 190px;
+    padding-left: 15px;
+    padding-top: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+#rj33{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-top: 190px;
+    padding-left: 15px;
+    padding-top: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+#rj44{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    margin-top: 190px;
+    padding-left: 15px;
+    padding-top: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+#rj1:hover{
+    transform: scale(1.1);
+}
+#rj2:hover{
+    transform: scale(1.1);
+}
+#rj3:hover{
+    transform: scale(1.1);
+    
+}
+#rj4:hover{
+    transform: scale(1.1);
+}
+#rj11 h4{
+    opacity: .4;
+}
+#rj22 h4{
+    opacity: .4;
+}
+#rj33 h4{
+    opacity: .4;
+}
+#rj44 h4{
+    opacity: .4;
+}
+#rajan3{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 270px;
+    margin-left: 6px;
+     opacity: .8;
+   background-color: #ffffff;
+}
+#rajan4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-top: 270px;
+    margin-left: 1275px;
+    opacity: .8;
+   background-color: #ffffff;
+}
+#rajan3 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+font-size: 45px;
+opacity: .7;
+}
+#rajan4 i{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    font-size: 45px;
+    opacity: .7;
+}
+#rajan5{
+    display: flex;
+   position: absolute;
+   justify-content: space-between;
+    margin-top: 500px;
+    margin-left: 330px;
+    border-radius: 9px;
+    width: 50%;
+    height: 70px;
+    padding-top: 20px;
+    background-color: black;
+}
+#rajan5 p{
+   color: white;
+   font-size: 25px;
+  margin-left: 220px;
+  margin-top: 6px;
+}
+#rajan5 i{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#rajan5 img{
+    position: absolute;
+ margin-bottom: 45px;
+ width: 40px;
+margin-left: 25px;
+}
+#rajan5:hover{
+    transform: scale(1.1);
+}
